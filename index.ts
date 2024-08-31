@@ -96,6 +96,7 @@ import chalk from "chalk";
 
     console.log(chalk.blue("-----------------------------------------------------------"));
 
+    
     let input2 = await inquirer.prompt({
       name: "input2",
       message: "What would you like to do?",
